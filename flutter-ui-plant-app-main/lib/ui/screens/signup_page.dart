@@ -5,8 +5,21 @@ import 'package:flutter_onboarding/ui/screens/widgets/custom_textfield.dart';
 import 'package:flutter_onboarding/ui/screens/signin_page.dart';
 import 'package:page_transition/page_transition.dart';
 
-class SignUp extends StatelessWidget {
+class SignUp extends StatefulWidget {
   const SignUp({Key? key}) : super(key: key);
+
+  @override
+  State<SignUp> createState() => _SignUpState();
+}
+
+class _SignUpState extends State<SignUp> {
+  Map user = {
+    'emailId': '',
+    'password': '',
+    'confirmPassword': '',
+    'name': '',
+    'phoneNo': '',
+  };
 
   @override
   Widget build(BuildContext context) {
@@ -41,68 +54,93 @@ class SignUp extends StatelessWidget {
               const SizedBox(
                 height: 30,
               ),
-              const CustomTextfield(
+              TextFormField(
                 obscureText: false,
-                hintText: 'Enter Email',
-                icon: Icons.alternate_email,
+                decoration: const InputDecoration(
+                  icon: Icon(Icons.alternate_email),
+                  hintText: 'Enter Email Id',
+                ),
+                onChanged: (value) => {
+                  setState(() {
+                    user['emailId'] = value;
+                  })
+                },
               ),
-              const CustomTextfield(
+              TextFormField(
                 obscureText: false,
-                hintText: 'Enter Full name',
-                icon: Icons.person,
+                decoration: const InputDecoration(
+                  icon: Icon(Icons.person),
+                  hintText: 'Enter Full Name',
+                ),
+                onChanged: (value) => {
+                  setState(() {
+                    user['name'] = value;
+                  })
+                },
               ),
-              const CustomTextfield(
+              TextFormField(
                 obscureText: true,
-                hintText: 'Enter Password',
-                icon: Icons.lock,
+                decoration: const InputDecoration(
+                  icon: Icon(Icons.lock),
+                  hintText: 'Enter Password',
+                ),
+                onChanged: (value) => {
+                  setState(() {
+                    user['password'] = value;
+                  })
+                },
               ),
-              const CustomTextfield(
+              TextFormField(
                 obscureText: false,
-                hintText: 'Enter Phone Number',
-                icon: Icons.call,
+                decoration: const InputDecoration(
+                  icon: Icon(Icons.call),
+                  hintText: 'Enter Phone No',
+                ),
+                onChanged: (value) => {
+                  setState(() {
+                    user['phoneNo'] = value;
+                  })
+                }
               ),
               const SizedBox(
                 height: 10,
               ),
 
-
-
               Center(
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: <Widget>[
-                    TextButton(onPressed:() {
-                      Navigator.pushNamed(context, 'otp');
-                    },
-                      child: Container(
-                        // alignment: Alignment.bottomCenter,
-                        height: 60,
-                            width: 280,
+                    TextButton(
+                        onPressed: () {
+                          // Navigator.pushNamed(context, 'otp');
+                          Navigator.pushNamed(context, 'signin_page');
+                        },
+                        child: Container(
+                          // alignment: Alignment.bottomCenter,
+                          height: 60,
+                          width: 280,
 
-                        // transformAlignment: Alignment.center,
-                            decoration: BoxDecoration(
-                              color: Constants.primaryColor,
-                              // color:Colors.green.shade500,
-                              borderRadius: BorderRadius.circular(10),
-                            ),
-                        padding:
-                        const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
-                        child: const Center(
-                          child: Text(
-                            'Sign Up',
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 22.0,
+                          // transformAlignment: Alignment.center,
+                          decoration: BoxDecoration(
+                            color: Constants.primaryColor,
+                            // color:Colors.green.shade500,
+                            borderRadius: BorderRadius.circular(10),
+                          ),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 10, vertical: 15),
+                          child: const Center(
+                            child: Text(
+                              'Sign Up',
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 22.0,
+                              ),
                             ),
                           ),
-                        ),
-                    )
-                    ),
+                        )),
                   ],
                 ),
               ),
-
-
 
               // GestureDetector(
               //   onTap: () {},
@@ -147,7 +185,8 @@ class SignUp extends StatelessWidget {
                 decoration: BoxDecoration(
                     border: Border.all(color: Constants.primaryColor),
                     borderRadius: BorderRadius.circular(10)),
-                padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [

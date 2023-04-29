@@ -86,6 +86,18 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "http",
+      "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/http-0.13.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/http_parser-4.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "js",
       "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.6.5",
       "packageUri": "lib/",
@@ -188,6 +200,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "typed_data",
+      "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/typed_data-1.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "universal_platform",
       "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/universal_platform-1.0.0+1",
       "packageUri": "lib/",
@@ -206,7 +224,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2023-03-21T16:02:49.023651Z",
+  "generated": "2023-04-29T11:23:39.133266Z",
   "generator": "pub",
   "generatorVersion": "2.19.4"
 }
