@@ -28,6 +28,13 @@ route.get("/customers", async (request, response) => {
     }
   });
 
+route.post("/getCust",async (request,response)=>{
+  const {emailId} = req.body
+  const cust = await Customer.findOne({emailId:emailId}).then(e=>{
+    return res.json({cust:e,status:true})
+  })
+})
+
 route.post("/signup",async (request,response)=>{
   const {emailId,password,custName,phoneNo} = request.body
   await Customer.findOne({emailId:emailId}).then(async e=>{
