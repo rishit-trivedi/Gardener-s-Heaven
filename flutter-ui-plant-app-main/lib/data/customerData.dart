@@ -52,7 +52,7 @@ class Customer {
     Map res = jsonDecode(response.body);
     if (res['status'] == true) {
       print(res);
-      
+
       Map USER = res['user'];
       return res;
     } else {
