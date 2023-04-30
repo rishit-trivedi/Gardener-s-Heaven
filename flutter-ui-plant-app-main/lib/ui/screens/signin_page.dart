@@ -28,6 +28,7 @@ class _SignInState extends State<SignIn> {
     // print(store.getToken());
     print('res $response');
     response ? Navigator.pushNamed(context, 'root_page') : '';
+    // Navigator.pushNamed(context, 'root_page');
   }
 
   @override
