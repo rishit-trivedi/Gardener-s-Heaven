@@ -22,7 +22,7 @@ class Customer {
           body: jsonEncode({
             'emailId': user['emailId'],
             'password': user['password'],
-            'name': user['name'],
+            'custName': user['name'],
             'phoneNo': user['phoneNo']
           }),
           headers: {
@@ -38,7 +38,7 @@ class Customer {
     }
   }
 
-  Future<Map?> login(Map user) async {
+  Future<bool?> login(Map user) async {
     // String path = 'http://10.0.2.2:8000/api/login';
     String path = 'http://10.0.2.2:8000/login';
     Response response = await http.post(Uri.parse(path),
@@ -51,38 +51,22 @@ class Customer {
     // print(response.body);
     Map res = jsonDecode(response.body);
     if (res['status'] == true) {
-      print(res);
-
-      Map USER = res['user'];
-      return res;
+      return true;
     } else {
-      return null;
+      return false;
     }
   }
 
-  Future<List> getAllCustomer() async {
-    try {
-      String path = 'http://10.0.2.2:8000/api/allCustomer';
-      Response response = await http.get(Uri.parse(path));
-      if (response.statusCode == 200) {
-        return jsonDecode(response.body);
-      } else {
-        return Future.error("Server error");
-      }
-    } catch (err) {
-      return Future.error(err);
-    }
-  }
-
-  Future<Map> getProfile(String id) async {
+  Future<Map> getProfile(String emailId) async {
     try {
       // print("inside data file"+id);
-      String path = 'http://10.0.2.2:8000/api/profile';
-      Response response = await http
-          .post(Uri.parse(path), body: jsonEncode({'id': id}), headers: {
-        'Content-type': 'application/json',
-        'Accept': 'application/json',
-      });
+      String path = 'http://10.0.2.2:8000/getCust';
+      Response response = await http.post(Uri.parse(path),
+          body: jsonEncode({'emailId': emailId}),
+          headers: {
+            'Content-type': 'application/json',
+            'Accept': 'application/json',
+          });
       if (response.statusCode == 200) {
         // print(response.body);
         return jsonDecode(response.body);

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_onboarding/constants.dart';
+import 'package:flutter_onboarding/data/customerData.dart';
 import 'package:flutter_onboarding/ui/root_page.dart';
 import 'package:flutter_onboarding/ui/screens/widgets/custom_textfield.dart';
 import 'package:flutter_onboarding/ui/screens/signin_page.dart';
@@ -20,6 +21,16 @@ class _SignUpState extends State<SignUp> {
     'name': '',
     'phoneNo': '',
   };
+
+  void signup() {
+    Customer c1 = Customer();
+    // print(user['emailId'] + user['password'] + user['name'] + user['phoneNo']);
+    // c1.register(user['emailId'], user['password'], user['name'], user['phoneNo']);
+    print('user $user');
+    Future<Map> res = c1.register(user);
+    Navigator.pushNamed(context, 'signin_page');
+    // Navigator.pop(context, '/');
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -60,10 +71,10 @@ class _SignUpState extends State<SignUp> {
                   icon: Icon(Icons.alternate_email),
                   hintText: 'Enter Email Id',
                 ),
-                onChanged: (value) => {
+                onChanged: (value) {
                   setState(() {
                     user['emailId'] = value;
-                  })
+                  });
                 },
               ),
               TextFormField(
@@ -72,10 +83,10 @@ class _SignUpState extends State<SignUp> {
                   icon: Icon(Icons.person),
                   hintText: 'Enter Full Name',
                 ),
-                onChanged: (value) => {
+                onChanged: (value) {
                   setState(() {
                     user['name'] = value;
-                  })
+                  });
                 },
               ),
               TextFormField(
@@ -84,24 +95,23 @@ class _SignUpState extends State<SignUp> {
                   icon: Icon(Icons.lock),
                   hintText: 'Enter Password',
                 ),
-                onChanged: (value) => {
+                onChanged: (value) {
                   setState(() {
                     user['password'] = value;
-                  })
+                  });
                 },
               ),
               TextFormField(
-                obscureText: false,
-                decoration: const InputDecoration(
-                  icon: Icon(Icons.call),
-                  hintText: 'Enter Phone No',
-                ),
-                onChanged: (value) => {
-                  setState(() {
-                    user['phoneNo'] = value;
-                  })
-                }
-              ),
+                  obscureText: false,
+                  decoration: const InputDecoration(
+                    icon: Icon(Icons.call),
+                    hintText: 'Enter Phone No',
+                  ),
+                  onChanged: (value) {
+                    setState(() {
+                      user['phoneNo'] = value;
+                    });
+                  }),
               const SizedBox(
                 height: 10,
               ),
@@ -113,7 +123,8 @@ class _SignUpState extends State<SignUp> {
                     TextButton(
                         onPressed: () {
                           // Navigator.pushNamed(context, 'otp');
-                          Navigator.pushNamed(context, 'signin_page');
+                          signup();
+                          // Navigator.pushNamed(context, 'signin_page');
                         },
                         child: Container(
                           // alignment: Alignment.bottomCenter,

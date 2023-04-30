@@ -1,13 +1,34 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_onboarding/constants.dart';
+import 'package:flutter_onboarding/data/customerData.dart';
 import 'package:flutter_onboarding/ui/root_page.dart';
 import 'package:flutter_onboarding/ui/screens/forgot_password.dart';
 import 'package:flutter_onboarding/ui/screens/signup_page.dart';
 import 'package:flutter_onboarding/ui/screens/widgets/custom_textfield.dart';
 import 'package:page_transition/page_transition.dart';
 
-class SignIn extends StatelessWidget {
+class SignIn extends StatefulWidget {
   const SignIn({Key? key}) : super(key: key);
+
+  @override
+  State<SignIn> createState() => _SignInState();
+}
+
+class _SignInState extends State<SignIn> {
+  Map user = {'emailId': '', 'password': ''};
+  bool response = false;
+
+  Customer customer = Customer();
+
+  Future<void> login() async {
+    response = (await customer.login(user))!;
+    print("***************");
+    // print(response);
+    // print(store.getId());
+    // print(store.getToken());
+    print('res $response');
+    response ? Navigator.pushNamed(context, 'root_page') : '';
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -32,24 +53,37 @@ class SignIn extends StatelessWidget {
               const SizedBox(
                 height: 30,
               ),
-              const CustomTextfield(
+              TextFormField(
                 obscureText: false,
-                hintText: 'Enter Email',
-                icon: Icons.alternate_email,
+                decoration: const InputDecoration(
+                  icon: Icon(Icons.alternate_email),
+                  hintText: 'Enter Email Id',
+                ),
+                onChanged: (value) {
+                  setState(() {
+                    user['emailId'] = value;
+                  });
+                },
               ),
-              const CustomTextfield(
+              TextFormField(
                 obscureText: true,
-                hintText: 'Enter Password',
-                icon: Icons.lock,
+                decoration: const InputDecoration(
+                  icon: Icon(Icons.lock),
+                  hintText: 'Enter Password',
+                ),
+                onChanged: (value) {
+                  setState(() {
+                    user['password'] = value;
+                  });
+                },
               ),
               const SizedBox(
                 height: 10,
               ),
               GestureDetector(
-
                 onTap: () {
-                  Navigator.pushNamed(context, 'root_page');
-
+                  login();
+                  // Navigator.pushNamed(context, 'root_page');
 
                   // Navigator.pushReplacement(
                   //     context,
