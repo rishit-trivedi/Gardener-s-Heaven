@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_onboarding/constants.dart';
 import 'package:flutter_onboarding/ui/root_page.dart';
 import 'package:flutter_onboarding/ui/screens/widgets/profile_widget.dart';
+import 'package:flutter_onboarding/ui/scan_page.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({Key? key}) : super(key: key);
@@ -69,7 +70,7 @@ class ProfilePage extends StatelessWidget {
                 children: [
                   GestureDetector(
                     onTap: () {
-                      Navigator.pushNamed(context, '');
+                      Navigator.pushNamed(context, 'myprofile');
                     },
                     child: Container(
                       width: size.width,

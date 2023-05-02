@@ -54,16 +54,16 @@ class _RootPageState extends State<RootPage> {
     return Scaffold(
       appBar: AppBar(
         title: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(titleList[_bottomNavIndex],
               style: TextStyle(
-
               color: Constants.blackColor,
               fontWeight: FontWeight.w500,
               fontSize: 24,
+              
             ),),
-            Icon(Icons.notifications, color: Constants.blackColor, size: 30.0,)
+            Icon(Icons.notifications, color: Constants.blackColor, size: 30.0)
           ],
         ),
         backgroundColor: Theme.of(context).scaffoldBackgroundColor,
@@ -75,12 +75,12 @@ class _RootPageState extends State<RootPage> {
       ),
       // floatingActionButton: FloatingActionButton(
       //   onPressed: (){
-      //     Navigator.push(context, PageTransition(child: const ScanPage(), type: PageTransitionType.bottomToTop));
+      //     Navigator.push(context, PageTransition(child:  Profile(), type: PageTransitionType.bottomToTop));
       //   },
       //   child: Image.asset('assets/images/code-scan-two.png', height: 30.0,),
       //   backgroundColor: Constants.primaryColor,
       // ),
-      // floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: AnimatedBottomNavigationBar(
         splashColor: Constants.primaryColor,
         activeColor: Constants.primaryColor,

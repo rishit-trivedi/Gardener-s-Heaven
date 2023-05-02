@@ -116,13 +116,21 @@ class _CartPageState extends State<CartPage> {
   }
 
   void createOrder(amount) async {
-    // var res = await http.post(Uri.parse("http://10.0.2.2:8000/createOrder"),
+     // var res = await http.post(Uri.parse("http://10.0.2.2:8000/createOrder"),
     //     body: jsonEncode({"amount": amount}),
     //     headers: {
     //       'Content-type': 'application/json',
     //       'Accept': 'application/json',
     //     });
-    order_Id = "order_LUrRLha3sipa1c";
+    order_Id = "order_LV1s2cFrjFgVKc";
+
+    // order_Id = "order_LVPYVvaw7HSdwA";
+
+    // order_Id = "order_LVPeBYbZFN3A61";
+
+    // order_Id = "order_LVPmGNTQheeNiN";
+    // order_Id = "order_LVPoYsRZ1g37Zv";
+    // order_Id = "order_LVPoZAioCh5SL6";
     // order_Id = jsonDecode(res.body)['order']['id'];
 
     // if (res.statusCode == 201) {
@@ -136,7 +144,7 @@ class _CartPageState extends State<CartPage> {
       'amount': amount, //in the smallest currency sub-unit.
       'name': 'Acme Corp.',
       'order_id': orderId, // Generate order_id using Orders API
-      'description': 'Fine T-Shirt',
+      'description': 'Tulsi And Aloevera Plant',
       'timeout': 60 * 5, // in seconds
       'prefill': {'contact': '1234567890', 'email': 'testuser1@example.com'}
     };
@@ -152,7 +160,7 @@ class _CartPageState extends State<CartPage> {
       "razorpay_signature": signature
     };
 
-    // var res = await http.post(
+      // var res = await http.post(
     //     Uri.parse("http://10.0.2.2:8000/api/payment/verifySignature"),
     //     body: body,
     //     headers: {
@@ -166,7 +174,6 @@ class _CartPageState extends State<CartPage> {
     //   ));
     // }
   }
-
   onCheckOutClick(double totalAmount) async {
     try {
       // List<Map> data = List.generate(cart.cartItems.length, (index) {

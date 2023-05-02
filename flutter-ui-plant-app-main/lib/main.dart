@@ -2,8 +2,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_onboarding/ui/root_page.dart';
+import 'package:flutter_onboarding/ui/scan_page.dart';
 import 'package:flutter_onboarding/ui/screens/opt.dart';
 import 'package:flutter_onboarding/ui/screens/signin_page.dart';
+
 
 import 'ui/onboarding_screen.dart';
 
@@ -15,7 +17,8 @@ void main(){
         'onboardin_screen': (context)=> OnboardingScreen(),
       'signin_page': (context)=> SignIn(),
       'root_page': (context)=> RootPage(),
-        'otp': (context)=> HomePage()
+        'otp': (context)=> HomePage(),
+        'myprofile' :(context) => Profile()
   },
   )
   );
