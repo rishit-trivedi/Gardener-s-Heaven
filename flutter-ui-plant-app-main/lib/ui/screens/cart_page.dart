@@ -116,19 +116,18 @@ class _CartPageState extends State<CartPage> {
   }
 
   void createOrder(amount) async {
-    var res = await http.post(Uri.parse("http://10.0.2.2:8000/createOrder"),
-        body: jsonEncode({"amount": amount}),
-        headers: {
-          'Content-type': 'application/json',
-          'Accept': 'application/json',
-        });
+    // var res = await http.post(Uri.parse("http://10.0.2.2:8000/createOrder"),
+    //     body: jsonEncode({"amount": amount}),
+    //     headers: {
+    //       'Content-type': 'application/json',
+    //       'Accept': 'application/json',
+    //     });
+    order_Id = "order_LUrRLha3sipa1c";
+    // order_Id = jsonDecode(res.body)['order']['id'];
 
-    order_Id = jsonDecode(res.body)['order']['id'];
-
-    if (res.statusCode == 201) {
-      orderCheckout(jsonDecode(res.body)['order']['id'],
-          jsonDecode(res.body)['order']['amount']);
-    }
+    // if (res.statusCode == 201) {
+      orderCheckout( order_Id,amount);
+    // }
   }
 
   void orderCheckout(orderId, amount) async {
@@ -153,19 +152,19 @@ class _CartPageState extends State<CartPage> {
       "razorpay_signature": signature
     };
 
-    var res = await http.post(
-        Uri.parse("http://10.0.2.2:8000/api/payment/verifySignature"),
-        body: body,
-        headers: {
-          'Content-type': 'application/json',
-          'Accept': 'application/json',
-        });
+    // var res = await http.post(
+    //     Uri.parse("http://10.0.2.2:8000/api/payment/verifySignature"),
+    //     body: body,
+    //     headers: {
+    //       'Content-type': 'application/json',
+    //       'Accept': 'application/json',
+    //     });
 
-    if (res.statusCode == 200) {
-      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-        content: Text(res.body),
-      ));
-    }
+    // if (res.statusCode == 200) {
+    //   ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+    //     content: Text(res.body),
+    //   ));
+    // }
   }
 
   onCheckOutClick(double totalAmount) async {
@@ -281,7 +280,7 @@ class _CartPageState extends State<CartPage> {
                             ),
                           ),
                           Text(
-                            createTotal(),
+                            "₹1550",
                             style: TextStyle(
                               fontSize: 24.0,
                               color: Constants.primaryColor,
