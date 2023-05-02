@@ -53,6 +53,23 @@
                         "endColumns": "129",
                         "endOffsets": "1134"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-ar\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "72",
+                        "endOffsets": "274"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2252",
+                        "endColumns": "76",
+                        "endOffsets": "2324"
+                    }
                 }
             ]
         },
@@ -108,6 +125,23 @@
                         "startOffsets": "1090",
                         "endColumns": "145",
                         "endOffsets": "1231"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-es-rUS\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "73",
+                        "endOffsets": "279"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2485",
+                        "endColumns": "77",
+                        "endOffsets": "2558"
                     }
                 }
             ]
@@ -165,6 +199,45 @@
                         "endColumns": "105,159,123,109,155,127,112,101,168,110,169,129,162,163,67,66,86",
                         "endOffsets": "156,316,440,550,706,834,947,1049,1357,1468,1638,1768,1931,2095,2163,2230,2317"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-sk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "71",
+                        "endOffsets": "273"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2423",
+                        "endColumns": "75",
+                        "endOffsets": "2494"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-en-rSG_values-en-rSG.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-en-rSG\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "70",
+                        "endOffsets": "276"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
+                    }
                 }
             ]
         },
@@ -186,6 +259,23 @@
                         "startOffsets": "55,163,318,446,557,724,851,974,1223,1401,1507,1676,1802,1965,2147,2215,2278",
                         "endColumns": "107,154,127,110,166,126,122,105,177,105,168,125,162,181,67,62,78",
                         "endOffsets": "158,313,441,552,719,846,969,1075,1396,1502,1671,1797,1960,2142,2210,2273,2352"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-nl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "71",
+                        "endOffsets": "273"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2458",
+                        "endColumns": "75",
+                        "endOffsets": "2529"
                     }
                 },
                 {
@@ -277,12 +367,46 @@
                         "endColumns": "102",
                         "endOffsets": "1017"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-zh-rTW\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "67",
+                        "endOffsets": "273"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "1975",
+                        "endColumns": "71",
+                        "endOffsets": "2042"
+                    }
                 }
             ]
         },
         {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-ml_values-ml.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-ml\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "73",
+                        "endOffsets": "275"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2517",
+                        "endColumns": "77",
+                        "endOffsets": "2590"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\0cdd8aceb5059ba1c457f63b9183d1a3\\jetified-play-services-basement-18.1.0\\res\\values-ml\\values.xml",
                     "from": {
@@ -374,6 +498,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-es\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "73",
+                        "endOffsets": "275"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2493",
+                        "endColumns": "77",
+                        "endOffsets": "2566"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\0cdd8aceb5059ba1c457f63b9183d1a3\\jetified-play-services-basement-18.1.0\\res\\values-es\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -445,6 +586,23 @@
                         "endColumns": "100",
                         "endOffsets": "1977"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-zh-rHK\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "67",
+                        "endOffsets": "273"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "1982",
+                        "endColumns": "71",
+                        "endOffsets": "2049"
+                    }
                 }
             ]
         },
@@ -486,6 +644,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-bg\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "70",
+                        "endOffsets": "272"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2463",
+                        "endColumns": "74",
+                        "endOffsets": "2533"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\642cc9e2632e586d1058ed231591ead4\\jetified-play-services-base-18.0.1\\res\\values-bg\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -507,6 +682,23 @@
         {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-tr_values-tr.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-tr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "74",
+                        "endOffsets": "276"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2407",
+                        "endColumns": "78",
+                        "endOffsets": "2481"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\122df2e57d294d1a53db26bbc3b813c1\\core-1.6.0\\res\\values-tr\\values-tr.xml",
                     "from": {
@@ -581,6 +773,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-sv\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "69",
+                        "endOffsets": "271"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2362",
+                        "endColumns": "73",
+                        "endOffsets": "2431"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\0cdd8aceb5059ba1c457f63b9183d1a3\\jetified-play-services-basement-18.1.0\\res\\values-sv\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -617,8 +826,47 @@
             ]
         },
         {
+            "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-id_values-id.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-id\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "73",
+                        "endOffsets": "275"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "77",
+                        "endOffsets": "128"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-ro_values-ro.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-ro\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "70",
+                        "endOffsets": "272"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2416",
+                        "endColumns": "74",
+                        "endOffsets": "2486"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\642cc9e2632e586d1058ed231591ead4\\jetified-play-services-base-18.0.1\\res\\values-ro\\values.xml",
                     "from": {
@@ -676,6 +924,23 @@
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-si_values-si.arsc.flat",
             "map": [
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-si\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "76",
+                        "endOffsets": "278"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2346",
+                        "endColumns": "80",
+                        "endOffsets": "2422"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\0cdd8aceb5059ba1c457f63b9183d1a3\\jetified-play-services-basement-18.1.0\\res\\values-si\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -732,6 +997,23 @@
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-fa_values-fa.arsc.flat",
             "map": [
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-fa\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "69",
+                        "endOffsets": "271"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2382",
+                        "endColumns": "73",
+                        "endOffsets": "2451"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\642cc9e2632e586d1058ed231591ead4\\jetified-play-services-base-18.0.1\\res\\values-fa\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -787,6 +1069,23 @@
         {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-ur_values-ur.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-ur\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "76",
+                        "endOffsets": "278"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2395",
+                        "endColumns": "80",
+                        "endOffsets": "2471"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\0cdd8aceb5059ba1c457f63b9183d1a3\\jetified-play-services-basement-18.1.0\\res\\values-ur\\values.xml",
                     "from": {
@@ -893,6 +1192,23 @@
                         "endColumns": "100",
                         "endOffsets": "2505"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-my\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "72",
+                        "endOffsets": "274"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2510",
+                        "endColumns": "76",
+                        "endOffsets": "2582"
+                    }
                 }
             ]
         },
@@ -931,6 +1247,23 @@
                         "startOffsets": "1073",
                         "endColumns": "142",
                         "endOffsets": "1211"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-eu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "73",
+                        "endOffsets": "275"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2431",
+                        "endColumns": "77",
+                        "endOffsets": "2504"
                     }
                 },
                 {
@@ -1005,6 +1338,23 @@
                         "endColumns": "149",
                         "endOffsets": "1208"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-mn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "77",
+                        "endOffsets": "279"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2371",
+                        "endColumns": "81",
+                        "endOffsets": "2448"
+                    }
                 }
             ]
         },
@@ -1026,6 +1376,23 @@
                         "startOffsets": "55,160,323,451,559,727,855,977,1231,1419,1527,1697,1828,1987,2165,2233,2302",
                         "endColumns": "104,162,127,107,167,127,121,108,187,107,169,130,158,177,67,68,86",
                         "endOffsets": "155,318,446,554,722,850,972,1081,1414,1522,1692,1823,1982,2160,2228,2297,2384"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-pt-rPT\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "75",
+                        "endOffsets": "281"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2490",
+                        "endColumns": "79",
+                        "endOffsets": "2565"
                     }
                 },
                 {
@@ -1117,6 +1484,23 @@
                         "endColumns": "145",
                         "endOffsets": "1200"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-be\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "80",
+                        "endOffsets": "282"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2388",
+                        "endColumns": "84",
+                        "endOffsets": "2468"
+                    }
                 }
             ]
         },
@@ -1138,6 +1522,23 @@
                         "startOffsets": "1118",
                         "endColumns": "160",
                         "endOffsets": "1274"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-fr-rCA\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "74",
+                        "endOffsets": "280"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2568",
+                        "endColumns": "78",
+                        "endOffsets": "2642"
                     }
                 },
                 {
@@ -1229,6 +1630,23 @@
                         "endColumns": "100",
                         "endOffsets": "2327"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-gu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "72",
+                        "endOffsets": "274"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2332",
+                        "endColumns": "76",
+                        "endOffsets": "2404"
+                    }
                 }
             ]
         },
@@ -1250,6 +1668,23 @@
                         "startOffsets": "55,161,334,464,570,742,874,994,1247,1432,1541,1716,1851,2022,2197,2264,2328",
                         "endColumns": "105,172,129,105,171,131,119,106,184,108,174,134,170,174,66,63,82",
                         "endOffsets": "156,329,459,565,737,869,989,1096,1427,1536,1711,1846,2017,2192,2259,2323,2406"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-ms\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "73",
+                        "endOffsets": "275"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2512",
+                        "endColumns": "77",
+                        "endOffsets": "2585"
                     }
                 },
                 {
@@ -1291,6 +1726,23 @@
         {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-am_values-am.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-am\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "66",
+                        "endOffsets": "268"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2162",
+                        "endColumns": "70",
+                        "endOffsets": "2228"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\642cc9e2632e586d1058ed231591ead4\\jetified-play-services-base-18.0.1\\res\\values-am\\values.xml",
                     "from": {
@@ -1347,6 +1799,23 @@
         {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-ne_values-ne.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-ne\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "79",
+                        "endOffsets": "281"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2487",
+                        "endColumns": "83",
+                        "endOffsets": "2566"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\0cdd8aceb5059ba1c457f63b9183d1a3\\jetified-play-services-basement-18.1.0\\res\\values-ne\\values.xml",
                     "from": {
@@ -1453,6 +1922,23 @@
                         "endColumns": "106,172,129,108,146,128,112,102,161,108,172,131,152,160,64,65,81",
                         "endOffsets": "157,330,460,569,716,845,958,1061,1374,1483,1656,1788,1941,2102,2167,2233,2315"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-pa\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "71",
+                        "endOffsets": "273"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2421",
+                        "endColumns": "75",
+                        "endOffsets": "2492"
+                    }
                 }
             ]
         },
@@ -1489,6 +1975,23 @@
                         "startOffsets": "2281",
                         "endColumns": "100",
                         "endOffsets": "2377"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-uk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "81",
+                        "endOffsets": "283"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2382",
+                        "endColumns": "85",
+                        "endOffsets": "2463"
                     }
                 },
                 {
@@ -1548,6 +2051,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-lv\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "84",
+                        "endOffsets": "286"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2460",
+                        "endColumns": "88",
+                        "endOffsets": "2544"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\0cdd8aceb5059ba1c457f63b9183d1a3\\jetified-play-services-basement-18.1.0\\res\\values-lv\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -1601,6 +2121,23 @@
                         "startOffsets": "2291",
                         "endColumns": "100",
                         "endOffsets": "2387"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-kn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "75",
+                        "endOffsets": "277"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2392",
+                        "endColumns": "79",
+                        "endOffsets": "2467"
                     }
                 },
                 {
@@ -1677,6 +2214,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-in\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "73",
+                        "endOffsets": "275"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2357",
+                        "endColumns": "77",
+                        "endOffsets": "2430"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\642cc9e2632e586d1058ed231591ead4\\jetified-play-services-base-18.0.1\\res\\values-in\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -1733,6 +2287,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-hu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "76",
+                        "endOffsets": "278"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2584",
+                        "endColumns": "80",
+                        "endOffsets": "2660"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\642cc9e2632e586d1058ed231591ead4\\jetified-play-services-base-18.0.1\\res\\values-hu\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -1769,6 +2340,23 @@
                         "startOffsets": "2225",
                         "endColumns": "100",
                         "endOffsets": "2321"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-sr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "75",
+                        "endOffsets": "277"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2326",
+                        "endColumns": "79",
+                        "endOffsets": "2401"
                     }
                 },
                 {
@@ -1810,6 +2398,23 @@
         {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-is_values-is.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-is\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "71",
+                        "endOffsets": "273"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2304",
+                        "endColumns": "75",
+                        "endOffsets": "2375"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\122df2e57d294d1a53db26bbc3b813c1\\core-1.6.0\\res\\values-is\\values-is.xml",
                     "from": {
@@ -1901,6 +2506,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-sw\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "83",
+                        "endOffsets": "285"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2417",
+                        "endColumns": "87",
+                        "endOffsets": "2500"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\122df2e57d294d1a53db26bbc3b813c1\\core-1.6.0\\res\\values-sw\\values-sw.xml",
                     "from": {
                         "startLines": "2",
@@ -1979,6 +2601,23 @@
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-ca_values-ca.arsc.flat",
             "map": [
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-ca\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "72",
+                        "endOffsets": "274"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2404",
+                        "endColumns": "76",
+                        "endOffsets": "2476"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\122df2e57d294d1a53db26bbc3b813c1\\core-1.6.0\\res\\values-ca\\values-ca.xml",
                     "from": {
                         "startLines": "2",
@@ -2049,6 +2688,23 @@
                         "startOffsets": "1050",
                         "endColumns": "126",
                         "endOffsets": "1172"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-da\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "69",
+                        "endOffsets": "271"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2358",
+                        "endColumns": "73",
+                        "endOffsets": "2427"
                     }
                 },
                 {
@@ -2125,6 +2781,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-vi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "75",
+                        "endOffsets": "277"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2390",
+                        "endColumns": "79",
+                        "endOffsets": "2465"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\0cdd8aceb5059ba1c457f63b9183d1a3\\jetified-play-services-basement-18.1.0\\res\\values-vi\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -2146,6 +2819,23 @@
         {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-hi_values-hi.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-hi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "71",
+                        "endOffsets": "273"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2387",
+                        "endColumns": "75",
+                        "endOffsets": "2458"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\122df2e57d294d1a53db26bbc3b813c1\\core-1.6.0\\res\\values-hi\\values-hi.xml",
                     "from": {
@@ -2217,6 +2907,23 @@
         {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-uz_values-uz.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-uz\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "80",
+                        "endOffsets": "282"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2397",
+                        "endColumns": "84",
+                        "endOffsets": "2477"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\122df2e57d294d1a53db26bbc3b813c1\\core-1.6.0\\res\\values-uz\\values-uz.xml",
                     "from": {
@@ -2313,6 +3020,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-lo\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "71",
+                        "endOffsets": "273"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2410",
+                        "endColumns": "75",
+                        "endOffsets": "2481"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\642cc9e2632e586d1058ed231591ead4\\jetified-play-services-base-18.0.1\\res\\values-lo\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -2366,6 +3090,23 @@
                         "startOffsets": "1118",
                         "endColumns": "164",
                         "endOffsets": "1278"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-fr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "74",
+                        "endOffsets": "276"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2558",
+                        "endColumns": "78",
+                        "endOffsets": "2632"
                     }
                 },
                 {
@@ -2457,6 +3198,23 @@
                         "endColumns": "128",
                         "endOffsets": "1149"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-th\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "70",
+                        "endOffsets": "272"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2280",
+                        "endColumns": "74",
+                        "endOffsets": "2350"
+                    }
                 }
             ]
         },
@@ -2512,6 +3270,23 @@
                         "startOffsets": "55,158,320,447,555,705,834,950,1193,1353,1461,1625,1757,1912,2057,2120,2185",
                         "endColumns": "102,161,126,107,149,128,115,102,159,107,163,131,154,144,62,64,87",
                         "endOffsets": "153,315,442,550,700,829,945,1048,1348,1456,1620,1752,1907,2052,2115,2180,2268"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-et\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "71",
+                        "endOffsets": "273"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2374",
+                        "endColumns": "75",
+                        "endOffsets": "2445"
                     }
                 }
             ]
@@ -2575,6 +3350,23 @@
         {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-fi_values-fi.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-fi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "75",
+                        "endOffsets": "277"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2327",
+                        "endColumns": "79",
+                        "endOffsets": "2402"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\642cc9e2632e586d1058ed231591ead4\\jetified-play-services-base-18.0.1\\res\\values-fi\\values.xml",
                     "from": {
@@ -2681,6 +3473,23 @@
                         "endColumns": "100",
                         "endOffsets": "2365"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-nb\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "70",
+                        "endOffsets": "272"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2370",
+                        "endColumns": "74",
+                        "endOffsets": "2440"
+                    }
                 }
             ]
         },
@@ -2737,12 +3546,46 @@
                         "endColumns": "100",
                         "endOffsets": "2397"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-az\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "70",
+                        "endOffsets": "272"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2402",
+                        "endColumns": "74",
+                        "endOffsets": "2472"
+                    }
                 }
             ]
         },
         {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-af_values-af.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-af\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "70",
+                        "endOffsets": "272"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2352",
+                        "endColumns": "74",
+                        "endOffsets": "2422"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\0cdd8aceb5059ba1c457f63b9183d1a3\\jetified-play-services-basement-18.1.0\\res\\values-af\\values.xml",
                     "from": {
@@ -2817,6 +3660,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-ko\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "65",
+                        "endOffsets": "267"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2103",
+                        "endColumns": "69",
+                        "endOffsets": "2168"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\122df2e57d294d1a53db26bbc3b813c1\\core-1.6.0\\res\\values-ko\\values-ko.xml",
                     "from": {
                         "startLines": "2",
@@ -2855,6 +3715,23 @@
         {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-pt-rBR_values-pt-rBR.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-pt-rBR\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "75",
+                        "endOffsets": "281"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2418",
+                        "endColumns": "79",
+                        "endOffsets": "2493"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\642cc9e2632e586d1058ed231591ead4\\jetified-play-services-base-18.0.1\\res\\values-pt-rBR\\values.xml",
                     "from": {
@@ -2909,6 +3786,22 @@
             ]
         },
         {
+            "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-sw600dp-v13_values-sw600dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\73768991254a241882b5cd618368cd7d\\jetified-checkout-1.6.30\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,93",
+                        "endLines": "2,13",
+                        "endColumns": "37,12",
+                        "endOffsets": "88,745"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-hy_values-hy.arsc.flat",
             "map": [
                 {
@@ -2926,6 +3819,23 @@
                         "startOffsets": "2370",
                         "endColumns": "100",
                         "endOffsets": "2466"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-hy\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "76",
+                        "endOffsets": "278"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2471",
+                        "endColumns": "80",
+                        "endOffsets": "2547"
                     }
                 },
                 {
@@ -2967,6 +3877,23 @@
         {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-ta_values-ta.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-ta\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "74",
+                        "endOffsets": "276"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2392",
+                        "endColumns": "78",
+                        "endOffsets": "2466"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\0cdd8aceb5059ba1c457f63b9183d1a3\\jetified-play-services-basement-18.1.0\\res\\values-ta\\values.xml",
                     "from": {
@@ -3034,12 +3961,29 @@
                         "endOffsets": "229,289,341,386,446,864,1061,1785,2899,3292"
                     },
                     "to": {
-                        "startLines": "3,8,9,10,80,141,149,323,334,351",
+                        "startLines": "3,8,9,10,92,186,194,446,457,474",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "165,344,404,456,5053,9947,10365,19531,20255,21369",
-                        "endLines": "7,8,9,10,80,148,152,333,350,358",
+                        "startOffsets": "165,344,404,456,5851,12858,13276,24263,24987,26101",
+                        "endLines": "7,8,9,10,92,193,197,456,473,481",
                         "endColumns": "11,59,51,44,59,24,24,24,24,24",
-                        "endOffsets": "339,399,451,496,5108,10360,10557,20250,21364,21757"
+                        "endOffsets": "339,399,451,496,5906,13271,13468,24982,26096,26489"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\73768991254a241882b5cd618368cd7d\\jetified-checkout-1.6.30\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "38",
+                        "endOffsets": "89"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "501",
+                        "endColumns": "38",
+                        "endOffsets": "535"
                     }
                 },
                 {
@@ -3052,11 +3996,30 @@
                         "endOffsets": "306,572"
                     },
                     "to": {
-                        "startLines": "99,109",
+                        "startLines": "111,121",
                         "startColumns": "4,4",
-                        "startOffsets": "6042,7220",
+                        "startOffsets": "6840,8018",
                         "endColumns": "67,166",
-                        "endOffsets": "6105,7382"
+                        "endOffsets": "6903,8180"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,17,20,28,31,39,54,73,98",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "172,249,316,384,457,519,585,652,715,779,834,993,1169,1642,1810,2283,3295,3690,4203",
+                        "endLines": "4,5,6,7,8,9,10,11,12,13,14,17,27,30,38,51,72,97,170",
+                        "endColumns": "76,66,67,72,61,65,66,62,63,54,52,70,8,8,8,8,20,20,20",
+                        "endOffsets": "248,315,383,456,518,584,651,714,778,833,886,1063,1641,1809,2282,3190,3689,4202,5978"
+                    },
+                    "to": {
+                        "startLines": "24,25,26,27,28,29,30,31,32,33,34,132,152,160,163,171,212,482,507",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1503,1584,1655,1727,1804,1870,1940,2011,2078,2146,2205,9382,10681,11158,11330,11807,14208,26494,27011",
+                        "endLines": "24,25,26,27,28,29,30,31,32,33,34,132,159,162,170,183,230,506,579",
+                        "endColumns": "80,70,71,76,65,69,70,66,67,58,56,74,8,8,8,8,20,20,20",
+                        "endOffsets": "1579,1650,1722,1799,1865,1935,2006,2073,2141,2200,2257,9452,11153,11325,11802,12714,14602,27006,28786"
                     }
                 },
                 {
@@ -3070,12 +4033,12 @@
                         "endOffsets": "465,971"
                     },
                     "to": {
-                        "startLines": "120,125",
+                        "startLines": "133,138",
                         "startColumns": "4,4",
-                        "startOffsets": "8584,8881",
-                        "endLines": "124,127",
+                        "startOffsets": "9457,9754",
+                        "endLines": "137,140",
                         "endColumns": "12,12",
-                        "endOffsets": "8876,9045"
+                        "endOffsets": "9749,9918"
                     }
                 },
                 {
@@ -3089,12 +4052,31 @@
                         "endOffsets": "300,376,462,548,624,701,777,853,1051,1232,1353,1456,1636,1755,1867,1966,2154,2255,2436,2557,2732,2876,2935,2993,3068,3474,3887"
                     },
                     "to": {
-                        "startLines": "13,14,15,16,17,18,19,20,101,102,103,104,105,106,107,108,110,111,112,113,114,115,116,117,118,291,304",
+                        "startLines": "14,15,16,17,18,19,20,21,113,114,115,116,117,118,119,120,122,123,124,125,126,127,128,129,130,355,427",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "661,751,831,921,1011,1091,1172,1252,6180,6285,6466,6591,6698,6878,7001,7117,7387,7575,7680,7861,7986,8161,8309,8372,8434,18799,19114",
-                        "endLines": "13,14,15,16,17,18,19,20,101,102,103,104,105,106,107,108,110,111,112,113,114,115,116,117,118,303,322",
+                        "startOffsets": "700,790,870,960,1050,1130,1211,1291,6978,7083,7264,7389,7496,7676,7799,7915,8185,8373,8478,8659,8784,8959,9107,9170,9232,22109,23846",
+                        "endLines": "14,15,16,17,18,19,20,21,113,114,115,116,117,118,119,120,122,123,124,125,126,127,128,129,130,367,445",
                         "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78,20,20",
-                        "endOffsets": "746,826,916,1006,1086,1167,1247,1327,6280,6461,6586,6693,6873,6996,7112,7215,7570,7675,7856,7981,8156,8304,8367,8429,8508,19109,19526"
+                        "endOffsets": "785,865,955,1045,1125,1206,1286,1366,7078,7259,7384,7491,7671,7794,7910,8013,8368,8473,8654,8779,8954,9102,9165,9227,9306,22419,24258"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\6f3daa1ca7d5f0cb334e07491a88b930\\jetified-play-services-maps-17.0.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "165",
+                        "endLines": "62",
+                        "endColumns": "20",
+                        "endOffsets": "1582"
+                    },
+                    "to": {
+                        "startLines": "368",
+                        "startColumns": "4",
+                        "startOffsets": "22424",
+                        "endLines": "426",
+                        "endColumns": "20",
+                        "endOffsets": "23841"
                     }
                 },
                 {
@@ -3108,12 +4090,12 @@
                         "endOffsets": "110,182,270,339,402,472,540,612,682,743,817,890,951,1012,1074,1138,1200,1261,1329,1429,1489,1555,1628,1697,1754,1806,1868,1940,2016,2081,2140,2199,2259,2319,2379,2439,2499,2559,2619,2679,2739,2799,2858,2918,2978,3038,3098,3158,3218,3278,3338,3398,3458,3517,3577,3637,3696,3755,3814,3873,3932,3991,4026,4061,4116,4179,4234,4292,4350,4411,4474,4531,4582,4632,4693,4750,4816,4850,4885,4920,4990,5061,5178,5379,5489,5690,5819,5891,5958,6395,6693,9993,12058,13818,14195"
                     },
                     "to": {
-                        "startLines": "2,11,12,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,100,119,128,129,133,134,138,139,140,153,160,167,215,247,284",
+                        "startLines": "2,12,13,22,23,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,112,131,141,142,146,147,151,184,185,198,205,231,279,311,348",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,501,573,1332,1401,1464,1534,1602,1674,1744,1805,1879,1952,2013,2074,2136,2200,2262,2323,2391,2491,2551,2617,2690,2759,2816,2868,2930,3002,3078,3143,3202,3261,3321,3381,3441,3501,3561,3621,3681,3741,3801,3861,3920,3980,4040,4100,4160,4220,4280,4340,4400,4460,4520,4579,4639,4699,4758,4817,4876,4935,4994,5113,5148,5183,5238,5301,5356,5414,5472,5533,5596,5653,5704,5754,5815,5872,5938,5972,6007,6110,8513,9050,9167,9368,9478,9679,9808,9880,10562,10999,11297,14597,16662,18422",
-                        "endLines": "2,11,12,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,100,119,128,132,133,137,138,139,140,159,166,214,246,283,290",
+                        "startOffsets": "105,540,612,1371,1440,2262,2332,2400,2472,2542,2603,2677,2750,2811,2872,2934,2998,3060,3121,3189,3289,3349,3415,3488,3557,3614,3666,3728,3800,3876,3941,4000,4059,4119,4179,4239,4299,4359,4419,4479,4539,4599,4659,4718,4778,4838,4898,4958,5018,5078,5138,5198,5258,5318,5377,5437,5497,5556,5615,5674,5733,5792,5911,5946,5981,6036,6099,6154,6212,6270,6331,6394,6451,6502,6552,6613,6670,6736,6770,6805,6908,9311,9923,10040,10241,10351,10552,12719,12791,13473,13910,14607,17907,19972,21732",
+                        "endLines": "2,12,13,22,23,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,112,131,141,145,146,150,151,184,185,204,211,278,310,347,354",
                         "endColumns": "59,71,87,68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,64,58,58,59,59,59,59,59,59,59,59,59,59,58,59,59,59,59,59,59,59,59,59,59,58,59,59,58,58,58,58,58,58,34,34,54,62,54,57,57,60,62,56,50,49,60,56,65,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24,24",
-                        "endOffsets": "160,568,656,1396,1459,1529,1597,1669,1739,1800,1874,1947,2008,2069,2131,2195,2257,2318,2386,2486,2546,2612,2685,2754,2811,2863,2925,2997,3073,3138,3197,3256,3316,3376,3436,3496,3556,3616,3676,3736,3796,3856,3915,3975,4035,4095,4155,4215,4275,4335,4395,4455,4515,4574,4634,4694,4753,4812,4871,4930,4989,5048,5143,5178,5233,5296,5351,5409,5467,5528,5591,5648,5699,5749,5810,5867,5933,5967,6002,6037,6175,8579,9162,9363,9473,9674,9803,9875,9942,10994,11292,14592,16657,18417,18794"
+                        "endOffsets": "160,607,695,1435,1498,2327,2395,2467,2537,2598,2672,2745,2806,2867,2929,2993,3055,3116,3184,3284,3344,3410,3483,3552,3609,3661,3723,3795,3871,3936,3995,4054,4114,4174,4234,4294,4354,4414,4474,4534,4594,4654,4713,4773,4833,4893,4953,5013,5073,5133,5193,5253,5313,5372,5432,5492,5551,5610,5669,5728,5787,5846,5941,5976,6031,6094,6149,6207,6265,6326,6389,6446,6497,6547,6608,6665,6731,6765,6800,6835,6973,9377,10035,10236,10346,10547,10676,12786,12853,13905,14203,17902,19967,21727,22104"
                     }
                 }
             ]
@@ -3153,6 +4135,23 @@
                         "startOffsets": "2328",
                         "endColumns": "100",
                         "endOffsets": "2424"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-ru\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "74",
+                        "endOffsets": "276"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2429",
+                        "endColumns": "78",
+                        "endOffsets": "2503"
                     }
                 },
                 {
@@ -3227,12 +4226,46 @@
                         "endColumns": "102,153,124,103,138,124,111,102,135,103,144,122,133,144,59,59,80",
                         "endOffsets": "153,307,432,536,675,800,912,1015,1269,1373,1518,1641,1775,1920,1980,2040,2121"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-iw\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "71",
+                        "endOffsets": "273"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2227",
+                        "endColumns": "75",
+                        "endOffsets": "2298"
+                    }
                 }
             ]
         },
         {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-hr_values-hr.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-hr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "73",
+                        "endOffsets": "275"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2343",
+                        "endColumns": "77",
+                        "endOffsets": "2416"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\642cc9e2632e586d1058ed231591ead4\\jetified-play-services-base-18.0.1\\res\\values-hr\\values.xml",
                     "from": {
@@ -3363,6 +4396,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-lt\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "80",
+                        "endOffsets": "282"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2422",
+                        "endColumns": "84",
+                        "endOffsets": "2502"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\0cdd8aceb5059ba1c457f63b9183d1a3\\jetified-play-services-basement-18.1.0\\res\\values-lt\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -3451,6 +4501,23 @@
                         "endColumns": "100",
                         "endOffsets": "2310"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-mr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "74",
+                        "endOffsets": "276"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2315",
+                        "endColumns": "78",
+                        "endOffsets": "2389"
+                    }
                 }
             ]
         },
@@ -3489,6 +4556,23 @@
                         "startOffsets": "55,161,321,446,556,709,836,948,1192,1367,1478,1642,1770,1931,2086,2154,2221",
                         "endColumns": "105,159,124,109,152,126,111,100,174,110,163,127,160,154,67,66,85",
                         "endOffsets": "156,316,441,551,704,831,943,1044,1362,1473,1637,1765,1926,2081,2149,2216,2302"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-cs\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "75",
+                        "endOffsets": "277"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2408",
+                        "endColumns": "79",
+                        "endOffsets": "2483"
                     }
                 },
                 {
@@ -3545,6 +4629,23 @@
                         "startOffsets": "2307",
                         "endColumns": "100",
                         "endOffsets": "2403"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-pl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "70",
+                        "endOffsets": "272"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2408",
+                        "endColumns": "74",
+                        "endOffsets": "2478"
                     }
                 },
                 {
@@ -3634,12 +4735,46 @@
                         "endColumns": "100",
                         "endOffsets": "2310"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-en-rGB\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "70",
+                        "endOffsets": "276"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2315",
+                        "endColumns": "74",
+                        "endOffsets": "2385"
+                    }
                 }
             ]
         },
         {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-km_values-km.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-km\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "72",
+                        "endOffsets": "274"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2377",
+                        "endColumns": "76",
+                        "endOffsets": "2449"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\642cc9e2632e586d1058ed231591ead4\\jetified-play-services-base-18.0.1\\res\\values-km\\values.xml",
                     "from": {
@@ -3696,6 +4831,23 @@
         {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-zu_values-zu.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-zu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "72",
+                        "endOffsets": "274"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2441",
+                        "endColumns": "76",
+                        "endOffsets": "2513"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\642cc9e2632e586d1058ed231591ead4\\jetified-play-services-base-18.0.1\\res\\values-zu\\values.xml",
                     "from": {
@@ -3811,6 +4963,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-gl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "73",
+                        "endOffsets": "275"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2437",
+                        "endColumns": "77",
+                        "endOffsets": "2510"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\642cc9e2632e586d1058ed231591ead4\\jetified-play-services-base-18.0.1\\res\\values-gl\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -3864,6 +5033,23 @@
                         "startOffsets": "1047",
                         "endColumns": "140",
                         "endOffsets": "1183"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-bs\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "73",
+                        "endOffsets": "275"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2349",
+                        "endColumns": "77",
+                        "endOffsets": "2422"
                     }
                 },
                 {
@@ -3923,6 +5109,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-de\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "73",
+                        "endOffsets": "275"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2507",
+                        "endColumns": "77",
+                        "endOffsets": "2580"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\122df2e57d294d1a53db26bbc3b813c1\\core-1.6.0\\res\\values-de\\values-de.xml",
                     "from": {
                         "startLines": "2",
@@ -3979,6 +5182,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-tl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "78",
+                        "endOffsets": "280"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2518",
+                        "endColumns": "82",
+                        "endOffsets": "2596"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\122df2e57d294d1a53db26bbc3b813c1\\core-1.6.0\\res\\values-tl\\values-tl.xml",
                     "from": {
                         "startLines": "2",
@@ -4000,6 +5220,23 @@
         {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-kk_values-kk.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-kk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "78",
+                        "endOffsets": "280"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2373",
+                        "endColumns": "82",
+                        "endOffsets": "2451"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\122df2e57d294d1a53db26bbc3b813c1\\core-1.6.0\\res\\values-kk\\values-kk.xml",
                     "from": {
@@ -4091,6 +5328,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-el\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "72",
+                        "endOffsets": "274"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2522",
+                        "endColumns": "76",
+                        "endOffsets": "2594"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\122df2e57d294d1a53db26bbc3b813c1\\core-1.6.0\\res\\values-el\\values-el.xml",
                     "from": {
                         "startLines": "2",
@@ -4162,6 +5416,23 @@
                         "endColumns": "136",
                         "endOffsets": "1206"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-mk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "72",
+                        "endOffsets": "274"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2399",
+                        "endColumns": "76",
+                        "endOffsets": "2471"
+                    }
                 }
             ]
         },
@@ -4176,6 +5447,23 @@
                         "startOffsets": "55",
                         "endColumns": "100",
                         "endOffsets": "151"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-en-rCA\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "70",
+                        "endOffsets": "276"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "156",
+                        "endColumns": "74",
+                        "endOffsets": "226"
                     }
                 }
             ]
@@ -4198,6 +5486,23 @@
                         "startOffsets": "2222",
                         "endColumns": "100",
                         "endOffsets": "2318"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-bn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "79",
+                        "endOffsets": "281"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2323",
+                        "endColumns": "83",
+                        "endOffsets": "2402"
                     }
                 },
                 {
@@ -4239,6 +5544,23 @@
         {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-en-rAU_values-en-rAU.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-en-rAU\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "70",
+                        "endOffsets": "276"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "156",
+                        "endColumns": "74",
+                        "endOffsets": "226"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\122df2e57d294d1a53db26bbc3b813c1\\core-1.6.0\\res\\values-en-rAU\\values-en-rAU.xml",
                     "from": {
@@ -4304,6 +5626,23 @@
                         "endColumns": "100",
                         "endOffsets": "2358"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-ky\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "80",
+                        "endOffsets": "282"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2363",
+                        "endColumns": "84",
+                        "endOffsets": "2443"
+                    }
                 }
             ]
         },
@@ -4360,6 +5699,45 @@
                         "endColumns": "104,148,127,109,153,133,121,107,172,107,154,127,160,138,65,60,75",
                         "endOffsets": "155,304,432,542,696,830,952,1060,1376,1484,1639,1767,1928,2067,2133,2194,2270"
                     }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-ka\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "70",
+                        "endOffsets": "272"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2376",
+                        "endColumns": "74",
+                        "endOffsets": "2446"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-b+es+419_values-b+es+419.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-b+es+419\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "208",
+                        "endColumns": "73",
+                        "endOffsets": "281"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "77",
+                        "endOffsets": "128"
+                    }
                 }
             ]
         },
@@ -4381,6 +5759,23 @@
                         "startOffsets": "1054",
                         "endColumns": "135",
                         "endOffsets": "1185"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-it\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "74",
+                        "endOffsets": "276"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2378",
+                        "endColumns": "78",
+                        "endOffsets": "2452"
                     }
                 },
                 {
@@ -4457,6 +5852,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-ja\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "64",
+                        "endOffsets": "266"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2115",
+                        "endColumns": "68",
+                        "endOffsets": "2179"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\122df2e57d294d1a53db26bbc3b813c1\\core-1.6.0\\res\\values-ja\\values-ja.xml",
                     "from": {
                         "startLines": "2",
@@ -4510,6 +5922,23 @@
                         "startOffsets": "55,165,319,449,564,701,826,931,1171,1320,1432,1585,1717,1868,2031,2095,2165",
                         "endColumns": "109,153,129,114,136,124,104,99,148,111,152,131,150,162,63,69,81",
                         "endOffsets": "160,314,444,559,696,821,926,1026,1315,1427,1580,1712,1863,2026,2090,2160,2242"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-te\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "77",
+                        "endOffsets": "279"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2348",
+                        "endColumns": "81",
+                        "endOffsets": "2425"
                     }
                 },
                 {
@@ -4569,6 +5998,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-sl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "70",
+                        "endOffsets": "272"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2380",
+                        "endColumns": "74",
+                        "endOffsets": "2450"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\122df2e57d294d1a53db26bbc3b813c1\\core-1.6.0\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "2",
@@ -4590,6 +6036,23 @@
         {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-sq_values-sq.arsc.flat",
             "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-sq\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "202",
+                        "endColumns": "68",
+                        "endOffsets": "270"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2497",
+                        "endColumns": "72",
+                        "endOffsets": "2565"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\122df2e57d294d1a53db26bbc3b813c1\\core-1.6.0\\res\\values-sq\\values-sq.xml",
                     "from": {
@@ -4644,6 +6107,28 @@
             ]
         },
         {
+            "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-fil_values-fil.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-fil\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "203",
+                        "endColumns": "78",
+                        "endOffsets": "281"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "82",
+                        "endOffsets": "133"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "D:\\Downloads\\flutter-ui-plant-app-main\\flutter-ui-plant-app-main\\build\\app\\intermediates\\res\\merged\\debug\\values-en-rIN_values-en-rIN.arsc.flat",
             "map": [
                 {
@@ -4654,6 +6139,23 @@
                         "startOffsets": "55",
                         "endColumns": "100",
                         "endOffsets": "151"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-en-rIN\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "70",
+                        "endOffsets": "276"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "156",
+                        "endColumns": "74",
+                        "endOffsets": "226"
                     }
                 }
             ]
@@ -4726,6 +6228,23 @@
                         "startOffsets": "55,156,285,400,502,607,723,825,1016,1124,1225,1355,1470,1574,1682,1738,1795",
                         "endColumns": "100,128,114,101,104,115,101,91,107,100,129,114,103,107,55,56,73",
                         "endOffsets": "151,280,395,497,602,718,820,912,1119,1220,1350,1465,1569,1677,1733,1790,1864"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Rishit\\.gradle\\caches\\transforms-2\\files-2.1\\58ee3ad31ce5f776afbb124bcf28fc84\\jetified-play-services-wallet-18.1.3\\res\\values-zh-rCN\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "206",
+                        "endColumns": "67",
+                        "endOffsets": "273"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "1970",
+                        "endColumns": "71",
+                        "endOffsets": "2037"
                     }
                 }
             ]

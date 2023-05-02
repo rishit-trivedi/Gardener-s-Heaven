@@ -5,8 +5,8 @@
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="16"
-9        android:targetSdkVersion="33" />
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="19" />
 10    <!--
 11         Flutter needs it to communicate with the running application
 12         to allow setting breakpoints, to provide hot reload, etc.
@@ -15,99 +15,213 @@
 14-->D:\Downloads\flutter-ui-plant-app-main\flutter-ui-plant-app-main\android\app\src\debug\AndroidManifest.xml:6:5-66
 14-->D:\Downloads\flutter-ui-plant-app-main\flutter-ui-plant-app-main\android\app\src\debug\AndroidManifest.xml:6:22-64
 15
-16    <application
-17        android:name="android.app.Application"
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.6.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:18-86
-19        android:debuggable="true"
-20        android:icon="@mipmap/ic_launcher"
-21        android:label="Gardener&apos;s Heaven" >
-22        <activity
-23            android:name="com.example.flutter_onboarding.MainActivity"
-24            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-25            android:exported="true"
-26            android:hardwareAccelerated="true"
-27            android:launchMode="singleTop"
-28            android:theme="@style/LaunchTheme"
-29            android:windowSoftInputMode="adjustResize" >
-30
-31            <!--
-32                 Specifies an Android theme to apply to this Activity as soon as
-33                 the Android process has started. This theme is visible to the user
-34                 while the Flutter UI initializes. After that, this theme continues
-35                 to determine the Window background behind the Flutter UI.
-36            -->
-37            <meta-data
-38                android:name="io.flutter.embedding.android.NormalTheme"
-39                android:resource="@style/NormalTheme" />
-40
-41            <intent-filter>
-42                <action android:name="android.intent.action.MAIN" />
-43
-44                <category android:name="android.intent.category.LAUNCHER" />
-45            </intent-filter>
-46        </activity>
-47        <!--
-48             Don't delete the meta-data below.
-49             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-50        -->
-51        <meta-data
-52            android:name="flutterEmbedding"
-53            android:value="2" />
-54
-55        <uses-library
-55-->[androidx.window:window:1.0.0-beta04] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
-56            android:name="androidx.window.extensions"
-56-->[androidx.window:window:1.0.0-beta04] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
-57            android:required="false" />
-57-->[androidx.window:window:1.0.0-beta04] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
-58        <uses-library
-58-->[androidx.window:window:1.0.0-beta04] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
-59            android:name="androidx.window.sidecar"
-59-->[androidx.window:window:1.0.0-beta04] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
-60            android:required="false" />
-60-->[androidx.window:window:1.0.0-beta04] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
-61
-62        <activity
-62-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:23:9-27:75
-63            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-63-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:24:13-93
-64            android:excludeFromRecents="true"
-64-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:25:13-46
-65            android:exported="false"
-65-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:26:13-37
-66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-66-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:27:13-72
-67        <!--
-68            Service handling Google Sign-In user revocation. For apps that do not integrate with
-69            Google Sign-In, this service will never be started.
-70        -->
-71        <service
-71-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:33:9-37:51
-72            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-72-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:34:13-89
-73            android:exported="true"
-73-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:35:13-36
-74            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-74-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:36:13-107
-75            android:visibleToInstantApps="true" />
-75-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:37:13-48
+16    <queries>
+16-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:10:5-39:15
+17        <intent>
+17-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:11:9-17:18
+18            <action android:name="android.intent.action.VIEW" />
+18-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:12:13-65
+18-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:12:21-62
+19
+20            <data
+20-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:14:13-16:38
+21                android:mimeType="*/*"
+21-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:15:17-39
+22                android:scheme="*" />
+22-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:16:17-35
+23        </intent>
+24        <intent>
+24-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:18:9-27:18
+25            <action android:name="android.intent.action.VIEW" />
+25-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:12:13-65
+25-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:12:21-62
+26
+27            <category android:name="android.intent.category.BROWSABLE" />
+27-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:21:13-74
+27-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:21:23-71
+28
+29            <data
+29-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:14:13-16:38
+30                android:host="pay"
+31                android:mimeType="*/*"
+31-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:15:17-39
+32                android:scheme="upi" />
+32-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:16:17-35
+33        </intent>
+34        <intent>
+34-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:28:9-30:18
+35            <action android:name="android.intent.action.MAIN" />
+35-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:29:13-65
+35-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:29:21-62
+36        </intent>
+37        <intent>
+37-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:31:9-35:18
+38            <action android:name="android.intent.action.SEND" />
+38-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:32:13-65
+38-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:32:21-62
+39
+40            <data android:mimeType="*/*" />
+40-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:14:13-16:38
+40-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:15:17-39
+41        </intent>
+42        <intent>
+42-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:36:9-38:18
+43            <action android:name="rzp.device_token.share" />
+43-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:37:13-61
+43-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:37:21-58
+44        </intent>
+45    </queries> <!-- Include required permissions for Google Maps API to run. -->
+46    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+46-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\6f3daa1ca7d5f0cb334e07491a88b930\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+46-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\6f3daa1ca7d5f0cb334e07491a88b930\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+47
+48    <uses-feature
+48-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\6f3daa1ca7d5f0cb334e07491a88b930\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+49        android:glEsVersion="0x00020000"
+49-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\6f3daa1ca7d5f0cb334e07491a88b930\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+50        android:required="true" />
+50-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\6f3daa1ca7d5f0cb334e07491a88b930\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+51
+52    <application
+53        android:name="android.app.Application"
+54        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+54-->[androidx.core:core:1.6.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\122df2e57d294d1a53db26bbc3b813c1\core-1.6.0\AndroidManifest.xml:24:18-86
+55        android:debuggable="true"
+56        android:icon="@mipmap/ic_launcher"
+57        android:label="Gardener&apos;s Heaven" >
+58        <activity
+59            android:name="com.example.flutter_onboarding.MainActivity"
+60            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+61            android:exported="true"
+62            android:hardwareAccelerated="true"
+63            android:launchMode="singleTop"
+64            android:theme="@style/LaunchTheme"
+65            android:windowSoftInputMode="adjustResize" >
+66
+67            <!--
+68                 Specifies an Android theme to apply to this Activity as soon as
+69                 the Android process has started. This theme is visible to the user
+70                 while the Flutter UI initializes. After that, this theme continues
+71                 to determine the Window background behind the Flutter UI.
+72            -->
+73            <meta-data
+74                android:name="io.flutter.embedding.android.NormalTheme"
+75                android:resource="@style/NormalTheme" />
 76
-77        <activity
-77-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-78            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-78-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-79            android:exported="false"
-79-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-80-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-81
-82        <meta-data
-82-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\0cdd8aceb5059ba1c457f63b9183d1a3\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-83            android:name="com.google.android.gms.version"
-83-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\0cdd8aceb5059ba1c457f63b9183d1a3\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-84            android:value="@integer/google_play_services_version" />
-84-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\0cdd8aceb5059ba1c457f63b9183d1a3\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-85    </application>
-86
-87</manifest>
+77            <intent-filter>
+78                <action android:name="android.intent.action.MAIN" />
+78-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:29:13-65
+78-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:29:21-62
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+81            </intent-filter>
+82        </activity>
+83        <!--
+84             Don't delete the meta-data below.
+85             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+86        -->
+87        <meta-data
+88            android:name="flutterEmbedding"
+89            android:value="2" />
+90
+91        <receiver
+91-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:42:9-49:20
+92            android:name="com.razorpay.RzpTokenReceiver"
+92-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:43:13-57
+93            android:exported="true" >
+93-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:44:13-36
+94            <intent-filter>
+94-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:46:13-48:29
+95                <action android:name="rzp.device_token.share" />
+95-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:37:13-61
+95-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:37:21-58
+96            </intent-filter>
+97        </receiver>
+98
+99        <activity
+99-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:51:9-59:20
+100            android:name="com.razorpay.CheckoutActivity"
+100-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:52:13-57
+101            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+101-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:53:13-83
+102            android:exported="true"
+102-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:54:13-36
+103            android:theme="@style/CheckoutTheme" >
+103-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:55:13-49
+104            <intent-filter>
+104-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:56:13-58:29
+105                <action android:name="android.intent.action.MAIN" />
+105-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:29:13-65
+105-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:29:21-62
+106            </intent-filter>
+107        </activity>
+108
+109        <meta-data
+109-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:61:9-63:58
+110            android:name="com.razorpay.plugin.googlepay_all"
+110-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:62:13-61
+111            android:value="com.razorpay.RzpGpayMerged" />
+111-->[com.razorpay:checkout:1.6.30] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\73768991254a241882b5cd618368cd7d\jetified-checkout-1.6.30\AndroidManifest.xml:63:13-55
+112
+113        <uses-library
+113-->[androidx.window:window:1.0.0-beta04] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+114            android:name="androidx.window.extensions"
+114-->[androidx.window:window:1.0.0-beta04] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+115            android:required="false" />
+115-->[androidx.window:window:1.0.0-beta04] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+116        <uses-library
+116-->[androidx.window:window:1.0.0-beta04] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+117            android:name="androidx.window.sidecar"
+117-->[androidx.window:window:1.0.0-beta04] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+118            android:required="false" />
+118-->[androidx.window:window:1.0.0-beta04] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\03c633e46d75bfb21f082f0417f55161\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+119
+120        <activity
+120-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:23:9-27:75
+121            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+121-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:24:13-93
+122            android:excludeFromRecents="true"
+122-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:25:13-46
+123            android:exported="false"
+123-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:26:13-37
+124            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+124-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:27:13-72
+125        <!--
+126            Service handling Google Sign-In user revocation. For apps that do not integrate with
+127            Google Sign-In, this service will never be started.
+128        -->
+129        <service
+129-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:33:9-37:51
+130            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+130-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:34:13-89
+131            android:exported="true"
+131-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:35:13-36
+132            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+132-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:36:13-107
+133            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+133-->[com.google.android.gms:play-services-auth:20.4.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\961422f5099198c4475030ca10ad4bf3\jetified-play-services-auth-20.4.0\AndroidManifest.xml:37:13-48
+134        <uses-library
+134-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\6f3daa1ca7d5f0cb334e07491a88b930\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+135            android:name="org.apache.http.legacy"
+135-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\6f3daa1ca7d5f0cb334e07491a88b930\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+136            android:required="false" />
+136-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\6f3daa1ca7d5f0cb334e07491a88b930\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+137
+138        <activity
+138-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+139            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+139-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+140            android:exported="false"
+140-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+141            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+141-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\642cc9e2632e586d1058ed231591ead4\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+142
+143        <meta-data
+143-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\0cdd8aceb5059ba1c457f63b9183d1a3\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+144            android:name="com.google.android.gms.version"
+144-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\0cdd8aceb5059ba1c457f63b9183d1a3\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+145            android:value="@integer/google_play_services_version" />
+145-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Rishit\.gradle\caches\transforms-2\files-2.1\0cdd8aceb5059ba1c457f63b9183d1a3\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+146    </application>
+147
+148</manifest>

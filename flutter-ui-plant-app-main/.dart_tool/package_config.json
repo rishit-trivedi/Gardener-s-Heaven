@@ -44,10 +44,22 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "eventify",
+      "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/eventify-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "fake_async",
       "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/fake_async-1.3.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "ffi",
+      "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/ffi-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
     },
     {
       "name": "flutter",
@@ -84,6 +96,12 @@
       "rootUri": "file:///C:/flutter/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "2.17"
+    },
+    {
+      "name": "fluttertoast",
+      "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/fluttertoast-8.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "http",
@@ -134,6 +152,42 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "package_info_plus",
+      "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/package_info_plus-1.4.3+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "package_info_plus_linux",
+      "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/package_info_plus_linux-1.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "package_info_plus_macos",
+      "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/package_info_plus_macos-1.3.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "package_info_plus_platform_interface",
+      "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/package_info_plus_platform_interface-1.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "package_info_plus_web",
+      "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/package_info_plus_web-1.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "package_info_plus_windows",
+      "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/package_info_plus_windows-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "page_transition",
       "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/page_transition-2.0.9",
       "packageUri": "lib/",
@@ -158,8 +212,20 @@
       "languageVersion": "2.15"
     },
     {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/plugin_platform_interface-2.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "provider",
       "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/provider-6.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "razorpay_flutter",
+      "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/razorpay_flutter-1.3.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -230,13 +296,19 @@
       "languageVersion": "2.14"
     },
     {
+      "name": "win32",
+      "rootUri": "file:///C:/Users/Rishit/AppData/Local/Pub/Cache/hosted/pub.dev/win32-3.1.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "flutter_onboarding",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2023-04-29T16:31:54.067281Z",
+  "generated": "2023-05-02T04:47:06.178902Z",
   "generator": "pub",
   "generatorVersion": "2.19.4"
 }
